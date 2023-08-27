@@ -1,0 +1,51 @@
+.container{
+    position: relative;
+}
+.product{
+    height: 400px;
+    width: auto;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    
+    
+}
+.product p{
+    margin: 1px;
+    padding-top: 2px;
+}
+
+.product img{
+    height: 320px;
+    
+
+}
+.description{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 100%;
+    left: 0;
+    opacity: 90%;
+    scroll-behavior: smooth;
+    overflow:scroll;
+}
+.product:hover .description{
+    top: 0;
+    transition: .8s;
+}
+.cartpageactive{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: #cccccc;
+    right: -78px;
+    z-index: 1;
+    
+}
+.cartpagehidden{
+    display: none;
+}
+.item-img{
+    height: 25px;
+    width: 50px;
+}
